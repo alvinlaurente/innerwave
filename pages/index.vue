@@ -16,7 +16,7 @@
       <h3 class="text-3xl font-semibold capitalize">
         Who are us?
       </h3>
-      <div class="grid grid-cols-2 mt-4">
+      <div class="grid grid-cols-2 mt-4 text-left md:text-center">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quasi.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quasi.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, quasi.</p>

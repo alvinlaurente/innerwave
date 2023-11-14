@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Home',
+    title: 'Innerwave',
     titleTemplate: 'Innerwave | %s',
     htmlAttrs: {
       lang: 'en'
@@ -13,11 +13,25 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+
+      // Title
+      { name: 'application-name', content: 'Innerwave' },
+      { name: 'apple-mobile-web-app-title', content: 'Innerwave' },
+      { name: 'description', content: 'Innerwave Gang #ExecutiveRP' },
+      { hid: 'description', name: 'description', content: 'Innerwave Gang #ExecutiveRP' },
+
+      { property: 'og:title', content: 'Innerwave' },
+      { name: 'og:image', content: '/logo64.webp' },
+      { name: 'og:description', property: 'og:description', content: 'Innerwave Gang #ExecutiveRP' },
+
+      // Description
+      { name: 'twitter:description', content: 'Innerwave Gang #ExecutiveRP' },
+      { name: 'twitter:title', content: 'Innerwave' },
+
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo64.webp' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap'

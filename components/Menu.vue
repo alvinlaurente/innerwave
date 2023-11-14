@@ -7,10 +7,17 @@
         <div class="container mx-auto flex flex-row items-center justify-center gap-2">
           <div class="pl-6 md:w-1/6">
             <div class="grid cursor-pointer">
-              <img src="~/assets/image/favicon32.png" alt="logo" title="logo">
+              <img
+                src="~/assets/image/logo64.webp"
+                width="32px"
+                height="32px"
+                alt="logo"
+                title="logo"
+                @click="$router.push('/')"
+              >
             </div>
           </div>
-          <div id="menus-desktop" class="md:w-4/6 lg:flex items-center justify-center">
+          <div id="menus-desktop" class="md:w-4/6 hidden lg:flex items-center justify-center">
             <ul>
               <li
                 v-for="(menu, index) in menus"

@@ -60,7 +60,7 @@
           @mouseleave="leave(index)"
           @click="goTo(menu.to)"
         >
-          <img :src="`_nuxt/assets/image/${menu.img}`" class="object-cover rounded-xl hover:opacity-25">
+          <img :src="`/_nuxt/assets/image/${menu.img}`" class="object-cover rounded-xl hover:opacity-25">
           <p class="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded">
             {{ menu.title }}
           </p>
